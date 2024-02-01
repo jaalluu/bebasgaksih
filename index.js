@@ -2,14 +2,14 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "hadoh" }');
+    res.send('{ "response": "apaya" }');
 });
 
 app.get('/will', function (req, res) {
-    res.send('{ "response": "hadoohh" }');
+    res.send('{ "response": "apadong" }');
 });
 app.get('/ready', function (req, res) {
-    res.send('{ "response": "hadoooh" }');
+    res.send('{ "response": "apasih" }');
 });
 app.listen(process.env.PORT || 3000);
 module.exports = app;
